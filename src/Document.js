@@ -14,7 +14,7 @@ const Document = (props) => {
             <div>
                 <h1 className='title'>{props.title}</h1>
                 <div className='content' style={{overflowY:'scroll', height:400, width:800, textAlign:'justify', padding:20}} onScroll={handleScroll}>{props.content}</div>
-                <button disabled={disabledButton}>I agree</button>
+                <button disabled={disabledButton}>I Agree</button>
             </div>  
         );
       };
